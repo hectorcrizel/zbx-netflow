@@ -508,7 +508,7 @@ action_configure_retention(){
   ui_msg "Retention set to ${days} days on base ${base}.\nTimer enabled.\n\n${tstat}"
 }
 
-action_about(){ ui_msg "$TITLE\nNetFlow (nfdump) + Zabbix Agent 2 — Developed by Hector Crizel - NapIT"; }
+action_about(){ ui_msg "$TITLE\nNetFlow (nfdump) + Zabbix Agent 2 Configuration Assistant"; }
 
 ensure_assistant_shortcut(){
   [[ -f "$ASSISTANT_CORE" ]] || install -m 0755 "$0" "$ASSISTANT_CORE"

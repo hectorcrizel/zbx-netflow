@@ -54,6 +54,3 @@ The script configures the following keys in Zabbix Agent 2:
 ## ⚖️ License
 
 This project is licensed under the MIT License.
-
----
-Developed by **Hector Crizel - NapIT**
